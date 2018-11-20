@@ -22,8 +22,8 @@ while 1:
 
             postDict = {
                 'opr':'pwdLogin',
-                'userName': '16041833',
-                'pwd':'HZDZKJDX311311...',
+                'userName': 'studentID',
+                'pwd':'passwd',
                 'rememberPwd':'0',
             }
             r = s.post('http://2.2.2.2/ac_portal/login.php',postDict)
